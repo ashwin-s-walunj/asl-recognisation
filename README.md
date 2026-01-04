@@ -10,7 +10,7 @@ This project implements a deep learning pipeline to recognize American Sign Lang
 The data source for this project is Kaggle ASL alphabet dataset(https://www.kaggle.com/datasets/grassknoted/asl-alphabet) containing 87,000 images. We did preprocessing on the dataset to remove the images which would not be detected by Google's mediapipe hand landmark extraction model *[hand_landmarker.task](hand_landmarker.task)* which reduced the number to 69,797.
 
 ## Workflow
-![System Workflow](diagrams/PR_Workflow.png)
+![System Workflow](diagrams/Workflow.png)
 
 ## Model Architecture
 **Model B (Custom CNN)**
