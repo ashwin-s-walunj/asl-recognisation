@@ -13,9 +13,9 @@ The data source for this project is Kaggle ASL alphabet dataset(https://www.kagg
 ![System Workflow](diagrams/PR_Workflow.png)
 
 ## Model Architecture
-![CNN network architecture](diagrams/NA_CNN-1.png)
-![EfficientNet network architecture](diagrams/NA_EFB0-1.png)
-![Geometric Classifier network architecture](diagrams/NA_GC-1.jpg)
+![CNN network architecture](diagrams/model_b.png)
+![EfficientNet network architecture](diagrams/model_e.png)
+![Geometric Classifier network architecture](diagrams/model_c.jpg)
 
 ## Requirements
 - TensorFlow 2.15+
@@ -27,6 +27,6 @@ The data source for this project is Kaggle ASL alphabet dataset(https://www.kagg
 ## Reproduction Instructions
 To reproduce the results in the *[pr-asl.ipynb](pr-asl.ipynb)* notebook:
 1. **Dataset:** Download the processed data from *[dataset](dataset)*.
-2. **Requirements:** Execute the file *[requirements.sh](requirements.sh)* to install all the required dependencies.
+2. **Requirements:** Execute the file *[requirements.sh](requirements.sh)* to install all the required dependencies. Use the following command ```sh requirements.sh ``` to execute the file.
 3. **Execution:** Open the notebook on your desired editor or platform and upload the dataset. Execute the script and you should have all the outputs presented.
 
