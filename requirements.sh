@@ -13,6 +13,9 @@ pip install opencv-contrib-python mediapipe
 echo "Installing TensorFlow..."
 pip install tensorflow
 
+echo "Installing pydot"
+pip install pydot
+
 echo "--------------------------------------"
 echo "Setup Complete. Installed Versions:"
 python3 -c "import tensorflow as tf; import mediapipe as mp; print(f'TensorFlow: {tf.__version__}'); print(f'MediaPipe: {mp.__version__}')"
