@@ -36,5 +36,5 @@ The data source for this project is Kaggle ASL alphabet dataset(https://www.kagg
 To reproduce the results in the *[pr-asl.ipynb](pr-asl.ipynb)* notebook:
 1. **Dataset:** Download the processed data from *[dataset](dataset)*.
 2. **Requirements:** Execute the file *[requirements.sh](requirements.sh)* to install all the required dependencies. Use the following command ```sh requirements.sh ``` to execute the file.
-3. **Execution:** Open the notebook on your desired editor or platform and upload the dataset. Execute the script and you should have all the outputs presented.
+3. **Execution:** Open the notebook on your desired editor or platform and upload the dataset. Execute the script and you should have all the outputs presented.*It might take upto 2 hrs to completely execute the notebook from scratch, as training the models might take time. Subject to hardware.*
 
