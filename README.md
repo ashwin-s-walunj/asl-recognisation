@@ -42,13 +42,13 @@ We utilize a **Stacking Strategy** where the outputs of the following base model
 <summary>Click to view Base Model Diagrams</summary>
 
 #### Model B: Custom CNN
-![CNN Architecture](Figures_Tables/RQ1/RQ1_Fig3.pdf)
+![CNN Architecture](diagrams/model_b.png)
 
 #### Model E: EfficientNetB0 (Transfer Learning)
 ![EfficientNet Architecture](diagrams/model_e.png)
 
 #### Model C: Geometric Classifier
-![Geometric Architecture](Figures_Tables/RQ1/RQ1_Fig4.pdf)
+![Geometric Architecture](diagrams/model_c.png)
 </details>
 
 ---
